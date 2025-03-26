@@ -32,6 +32,7 @@ pg_trace_tool 是一个用于 OpenTenBase 的函数执行跟踪工具，可以�
 ```bash
 cd /path/to/OpenTenBase/contrib/
 git clone https://atomgit.com/da_capo_/pg_trace_tool.git
+cd pg_trace_tool
 make
 make install
 ```
