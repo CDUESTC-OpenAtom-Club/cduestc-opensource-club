@@ -8,6 +8,8 @@
  * Version: 1.0
  */  
 
-CREATE FUNCTION pg_trace_tool() RETURNS CSTRING 
+-- 创建函数
+CREATE OR REPLACE FUNCTION pg_trace_tool(text)
+RETURNS CSTRING
 AS 'pg_trace_tool', 'pg_trace_tool'
 LANGUAGE C;
