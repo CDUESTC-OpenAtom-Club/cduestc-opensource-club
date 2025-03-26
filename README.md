@@ -130,3 +130,11 @@ $$;
 -- 跟踪函数执行
 SELECT pg_trace_tool('test_complex_func()');
 ```
+
+# 技术参考
+
+- [PostgreSQL技术问题解答](https://wiki.postgresql.org/wiki/Developer_FAQ#Technical_Questions)
+
+- [OpenTenBase用户指南](https://docs.opentenbase.org/guide/01-quickstart/)
+
+- [文一 - OpenTenBase 的安装与使用](https://datapromoto.atomgit.com/explore/journalism/detail/395496308942704640)
