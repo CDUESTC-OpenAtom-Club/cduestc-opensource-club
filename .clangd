@@ -6,7 +6,6 @@ CompileFlags:
 
 Diagnostics:
   ClangTidy:
-    Checks: "-*"
     Remove:
       - "llvm-include-order"
       
