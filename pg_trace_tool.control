@@ -1,0 +1,3 @@
+# pg_trace_tool
+comment = 'An OpenTenBase Function/Precedure trace tool.'
+default_version = '1.0'

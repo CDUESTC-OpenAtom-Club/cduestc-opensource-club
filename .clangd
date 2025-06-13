@@ -1,0 +1,13 @@
+CompileFlags:
+  Add:
+    - "-I/data/opentenbase/OpenTenBase/src/include"
+    - "-w"
+    - "-Wno-everything"
+
+Diagnostics:
+  ClangTidy:
+    Remove:
+      - "llvm-include-order"
+      
+Index:
+  Background: Skip
